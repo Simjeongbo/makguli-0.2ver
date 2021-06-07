@@ -352,7 +352,7 @@ section {
 }
 
 #content1 {
-  background-image: url(/img/bg2.jpg);
+  background-image: url(./img/bg2.jpg);
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -473,7 +473,7 @@ section {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  background-image: url(/img/bg7.jpg);
+  background-image: url(./img/bg7.jpg);
 }
 
 .how {
@@ -588,7 +588,7 @@ section {
   height: 1100px;
   background-size: cover;
   background-position: center;
-  background-image: url(/img/bg4.jpg);
+  background-image: url(./img/bg4.jpg);
   background-attachment: fixed;
 }
 
@@ -835,7 +835,7 @@ section {
   word-spacing: 4px;
   letter-spacing: 1px;
   display: none;
-  background-image: url(/img/bg6.jpg);
+  background-image: url(./img/bg6.jpg);
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
@@ -843,26 +843,29 @@ section {
 
 
 .groups {
-  display: flex;
   position: relative;
+  
   width: 100%;
-  height: 1500px;
+  height: auto;
   background-color: rgba(250, 250, 250, 0.158);
   
 }
 
 .groups video {
-  position: absolute;
+  position: relative;
   left: 50%;
   transform: translateX(-50%);
+  width: 70vw;
+  margin-bottom: 100px;
 }
 
 #group {
-  width: 25%;
-  overflow: hidden;
-}
-#group img {
-  width: 80vw;
+  width: 100%;
+  padding: 30px;
+  color: rgb(255, 255, 255);
+  font-size: 45px;
+  text-align: center;
+  font-family: 'Yeon Sung', cursive;
 }
 
 
